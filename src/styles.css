@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f5f6f8; color: #13213a; }
+.page { width: min(760px, 92vw); margin: 0 auto; padding: 42px 0 64px; }
+.hero { text-align: center; }
+.brand { display: block; margin: 0 auto 26px; text-align: center; }
+.brand-logo { display: block; width: min(360px, 82vw); height: auto; margin: 0 auto; }
+.eyebrow { margin: 0 0 10px; color: #b08a35; font-weight: 700; letter-spacing: .12em; font-size: .82rem; }
+h1 { margin: 0; color: #13213a; font-size: clamp(2rem, 7vw, 3.5rem); line-height: 1.08; overflow-wrap: anywhere; }
+.intro { max-width: 650px; margin: 18px auto 30px; color: #536078; line-height: 1.6; font-size: 1.05rem; }
+.card, .info { background: white; border: 1px solid #dde2e9; border-radius: 16px; padding: 28px; margin-top: 22px; }
+h2 { margin: 0 0 20px; font-size: 1.3rem; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+label { display: grid; gap: 8px; font-weight: 700; color: #39445a; }
+input { width: 100%; min-height: 48px; border: 1px solid #cbd2dc; border-radius: 10px; padding: 12px; font-size: 1rem; }
+button { width: 100%; min-height: 50px; margin-top: 20px; border: 0; border-radius: 10px; background: #13213a; color: white; font-size: 1rem; font-weight: 700; cursor: pointer; }
+.result { display: grid; gap: 12px; margin-top: 22px; }
+.result div { display: flex; justify-content: space-between; gap: 16px; padding: 16px; background: #f5f6f8; border-radius: 10px; }
+.result strong { text-align: right; }
+.error { color: #9b2c2c; font-weight: 700; }
+.info p { color: #536078; line-height: 1.6; margin: 0; }
+@media (max-width: 600px) { .page { padding-top: 28px; } .grid { grid-template-columns: 1fr; } .card, .info { padding: 22px; } .result div { flex-direction: column; } .result strong { text-align: left; } }
