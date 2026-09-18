@@ -50,6 +50,10 @@ function App() {
         </div>
       </section>
       <section className="info"><h2>How It Works</h2><p>Cubic yards = length × width × depth ÷ 324. A 10% planning allowance is included in the recommended order amount.</p></section>
+      <nav aria-label="More ATHENA Calculators">
+        <p><strong>More ATHENA Calculators:</strong> <a href="https://how-much-gravel.pages.dev/">Gravel Calculator</a> · <a href="https://paint-calculator-5wq.pages.dev/">Paint Calculator</a> · <a href="https://flooring-calculator.pages.dev/">Flooring Calculator</a></p>
+      </nav>
+
       <footer>
         <p>Free mulch calculator for practical planning.</p>
         <p>As an Amazon Associate I earn from qualifying purchases.</p>
