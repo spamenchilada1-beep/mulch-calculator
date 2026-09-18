@@ -40,7 +40,20 @@ function App() {
           <div><span>Recommended Order</span><strong>{result.order.toFixed(2)} cubic yards</strong></div>
         </div>}
       </section>
+      <section className="affiliate-card" aria-label="Recommended mulch project supplies">
+        <p className="affiliate-label">PROJECT SUPPLIES</p>
+        <h2>Need supplies for your mulch project?</h2>
+        <p>Browse mulch, landscape fabric, edging, garden tools, and other project supplies on Amazon.</p>
+        <div className="affiliate-links">
+          <a href="https://www.amazon.com/s?k=landscape+mulch&tag=athena-20" target="_blank" rel="sponsored noopener">Shop landscape mulch <span>(paid link)</span></a>
+          <a href="https://www.amazon.com/s?k=landscape+fabric+edging&tag=athena-20" target="_blank" rel="sponsored noopener">Shop landscape fabric &amp; edging <span>(paid link)</span></a>
+        </div>
+      </section>
       <section className="info"><h2>How It Works</h2><p>Cubic yards = length × width × depth ÷ 324. A 10% planning allowance is included in the recommended order amount.</p></section>
+      <footer>
+        <p>Free mulch calculator for practical planning.</p>
+        <p>As an Amazon Associate I earn from qualifying purchases.</p>
+      </footer>
     </main>
   )
 }
