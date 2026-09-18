@@ -49,7 +49,31 @@ function App() {
           <a href="https://www.amazon.com/s?k=landscape+fabric+landscape+edging&tag=athena-20" target="_blank" rel="sponsored noopener">Shop landscape fabric &amp; edging <span>(paid link)</span></a>
         </div>
       </section>
-      <section className="info"><h2>How It Works</h2><p>Cubic yards = length × width × depth ÷ 324. A 10% planning allowance is included in the recommended order amount.</p></section>
+      <section className="info">
+        <h2>How It Works</h2>
+        <p>Cubic yards = length × width × depth ÷ 324. A 10% planning allowance is included in the recommended order amount.</p>
+
+        <h2>How much mulch do I need?</h2>
+        <p>
+          Measure the length and width of the planting area in feet and enter
+          the depth you plan to install. For large or irregular beds, divide
+          the space into simple sections and add the cubic-yard results.
+        </p>
+
+        <h2>How many bags of mulch do I need?</h2>
+        <p>
+          This calculator reports cubic yards. To compare bagged mulch, check
+          the coverage printed on the bag and convert your recommended volume
+          using that product's stated coverage. Bag sizes and coverage vary.
+        </p>
+
+        <h2>Planning a mulch order</h2>
+        <p>
+          Use the recommended order amount as a planning quantity, then verify
+          the final amount against the mulch product, bed shape, and depth you
+          intend to install.
+        </p>
+      </section>
       <nav aria-label="More ATHENA Calculators">
         <p><strong>More ATHENA Calculators:</strong> <a href="https://athena-public-platform.pages.dev/#tools">ATHENA Tools</a> · <a href="https://how-much-gravel.pages.dev/">Gravel Calculator</a> · <a href="https://paint-calculator-5wq.pages.dev/">Paint Calculator</a> · <a href="https://flooring-calculator.pages.dev/">Flooring Calculator</a></p>
       </nav>
