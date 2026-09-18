@@ -45,8 +45,8 @@ function App() {
         <h2>Ready to order your project materials?</h2>
         <p>Use your mulch estimate to plan the job, then compare mulch, landscape fabric, edging, and garden tools on Amazon.</p>
         <div className="affiliate-links">
-          <a href="https://www.amazon.com/s?k=landscape+mulch&tag=athena-20" target="_blank" rel="sponsored noopener">Shop landscape mulch <span>(paid link)</span></a>
-          <a href="https://www.amazon.com/s?k=landscape+fabric+edging&tag=athena-20" target="_blank" rel="sponsored noopener">Shop landscape fabric &amp; edging <span>(paid link)</span></a>
+          <a href="https://www.amazon.com/s?k=landscape+mulch+garden&tag=athena-20" target="_blank" rel="sponsored noopener">Shop landscape mulch &amp; garden materials <span>(paid link)</span></a>
+          <a href="https://www.amazon.com/s?k=landscape+fabric+landscape+edging&tag=athena-20" target="_blank" rel="sponsored noopener">Shop landscape fabric &amp; edging <span>(paid link)</span></a>
         </div>
       </section>
       <section className="info"><h2>How It Works</h2><p>Cubic yards = length × width × depth ÷ 324. A 10% planning allowance is included in the recommended order amount.</p></section>
