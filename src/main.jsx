@@ -75,7 +75,7 @@ function App() {
           intend to install.
         </p>
         <h2>More mulch planning help</h2>
-        <p>See the step-by-step guide: <a href="/how-much-mulch-do-i-need.html">How Much Mulch Do I Need?</a></p>
+        <p>See the step-by-step guide: <a href="/how-much-mulch-do-i-need">How Much Mulch Do I Need?</a></p>
       </section>
       <nav aria-label="More ATHENA Calculators">
         <p><strong>More ATHENA Calculators:</strong> <a href="https://athena-public-platform.pages.dev/#tools">ATHENA Tools</a> · <a href="https://how-much-gravel.pages.dev/">Gravel Calculator</a> · <a href="https://paint-calculator-5wq.pages.dev/">Paint Calculator</a> · <a href="https://flooring-calculator.pages.dev/">Flooring Calculator</a></p>
