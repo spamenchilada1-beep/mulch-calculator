@@ -16,6 +16,7 @@ function App() {
     }
     const cubicYards = (l * w * d) / 324
     setResult({ cubicYards, order: cubicYards * 1.1 })
+    window.gtag?.('event', 'calculator_completed', { calculator: 'mulch' })
   }
 
   return (
