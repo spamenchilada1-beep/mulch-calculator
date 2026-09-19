@@ -74,8 +74,10 @@ function App() {
           the final amount against the mulch product, bed shape, and depth you
           intend to install.
         </p>
-        <h2>More mulch planning help</h2>
+        <h2>Mulch planning tips</h2>
+        <p>For irregular beds, divide the area into smaller sections and add the results. Verify the depth and product coverage before ordering, because mulch volume and bag coverage vary by product.</p>
         <p>See the step-by-step guide: <a href="/how-much-mulch-do-i-need">How Much Mulch Do I Need?</a></p>
+        <p>Buying bagged mulch? Read the <a href="/how-many-bags-of-mulch-do-i-need">bag planning guide</a> before you order.</p>
       </section>
       <nav aria-label="More ATHENA Calculators">
         <p><strong>More ATHENA Calculators:</strong> <a href="https://athena-public-platform.pages.dev/#tools">ATHENA Tools</a> · <a href="https://how-much-gravel.pages.dev/">Gravel Calculator</a> · <a href="https://paint-calculator-5wq.pages.dev/">Paint Calculator</a> · <a href="https://flooring-calculator.pages.dev/">Flooring Calculator</a></p>
