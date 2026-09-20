@@ -46,8 +46,8 @@ function App() {
         <h2>Ready to order your project materials?</h2>
         <p>Use your mulch estimate to plan the job, then compare mulch, landscape fabric, edging, and garden tools on Amazon.</p>
         <div className="affiliate-links">
-          <a href="https://www.amazon.com/s?k=landscape+mulch+garden&tag=athena-mulch-20" target="_blank" rel="sponsored noopener">Shop landscape mulch &amp; garden materials <span>(paid link)</span></a>
-          <a href="https://www.amazon.com/s?k=landscape+fabric+landscape+edging&tag=athena-mulch-20" target="_blank" rel="sponsored noopener">Shop landscape fabric &amp; edging <span>(paid link)</span></a>
+          <a href="https://www.amazon.com/s?k=landscape+mulch+garden&tag=athena-mulch-20" target="_blank" rel="sponsored noopener" onClick={() => window.gtag?.('event', 'affiliate_click', { program: 'amazon_associates', calculator: 'mulch', placement: 'mulch_garden' })}>Shop landscape mulch &amp; garden materials <span>(paid link)</span></a>
+          <a href="https://www.amazon.com/s?k=landscape+fabric+landscape+edging&tag=athena-mulch-20" target="_blank" rel="sponsored noopener" onClick={() => window.gtag?.('event', 'affiliate_click', { program: 'amazon_associates', calculator: 'mulch', placement: 'landscape_fabric_edging' })}>Shop landscape fabric &amp; edging <span>(paid link)</span></a>
         </div>
       </section>
       <section className="info">
