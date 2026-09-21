@@ -80,7 +80,7 @@ function App() {
         <p>Buying bagged mulch? Read the <a href="/how-many-bags-of-mulch-do-i-need">bag planning guide</a> before you order.</p>
       </section>
       <nav aria-label="More ATHENA Calculators">
-        <p><strong>More ATHENA Calculators:</strong> <a href="https://athena-public-platform.pages.dev/#tools">ATHENA Tools</a> · <a href="https://how-much-gravel.pages.dev/">Gravel Calculator</a> · <a href="https://paint-calculator-5wq.pages.dev/">Paint Calculator</a> · <a href="https://flooring-calculator.pages.dev/">Flooring Calculator</a></p>
+        <p><strong>More ATHENA Calculators:</strong> <a href="https://athena-public-platform.pages.dev/tools/">ATHENA Tools</a> · <a href="https://how-much-gravel.pages.dev/">Gravel Calculator</a> · <a href="https://paint-calculator-5wq.pages.dev/">Paint Calculator</a> · <a href="https://flooring-calculator.pages.dev/">Flooring Calculator</a></p>
       </nav>
 
       <footer>
