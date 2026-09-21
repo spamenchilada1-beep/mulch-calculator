@@ -1,0 +1,36 @@
+name: Notify IndexNow
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "index.html"
+      - "src/**"
+      - "public/**"
+      - "package.json"
+      - "sitemap.xml"
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify IndexNow of updated pages
+        env:
+          INDEXNOW_KEY: e5a7b9d1f3456789abcdef01234567890
+        run: |
+          sleep 60
+          urls=(
+            "https://mulch-calculator-5xl.pages.dev/"
+            "https://mulch-calculator-5xl.pages.dev/mulch-calculator-cubic-yards"
+            "https://mulch-calculator-5xl.pages.dev/how-much-mulch-do-i-need"
+            "https://mulch-calculator-5xl.pages.dev/how-many-bags-of-mulch-do-i-need"
+            "https://mulch-calculator-5xl.pages.dev/how-deep-should-mulch-be"
+          )
+          for url in "${urls[@]}"; do
+            code=$(curl -sS -G -o /dev/null -w "%{http_code}" \
+              "https://api.indexnow.org/indexnow" \
+              --data-urlencode "url=$url" \
+              --data-urlencode "key=$INDEXNOW_KEY")
+            echo "$code $url"
+          done
